@@ -3,23 +3,32 @@
   padding: 16px 0;
   color: #ffffff;
   text-align: center;
+}
 
-  & .announcement-message {
-    & span {
-      font-weight: bold;
-    }
-  }
+.announcement-bar span {
+  font-weight: bold;
+}
 
-  & .announcement-message--full {
+.announcement-message--full {
+  display: none;
+}
+
+@media (min-width: 714px) {
+  .announcement-message--compact {
     display: none;
   }
 
-  @media (width > 714px) {
-    & .announcement-message--compact {
-      display: none;
-    }
-    & .announcement-message--full {
-      display: block;
-    }
+  .announcement-message--full {
+    display: block;
   }
+}
+
+header {
+  background-color: #ffffff;
+}
+
+.header-wrapper {
+  padding: 33px 24px;
+  display: flex;
+  justify-content: space-between;
 }
