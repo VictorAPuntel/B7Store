@@ -4,8 +4,10 @@
   color: #ffffff;
   text-align: center;
 
-  & span {
-    font-weight: bold;
+  & .announcement-message {
+    & span {
+      font-weight: bold;
+    }
   }
 
   & .announcement-message--full {
