@@ -76,6 +76,22 @@
   font-size: 0.875rem;
 }
 
+.site-header__menu-icon--active {
+  display: none;
+}
+
+.site-header__menu-toggle.is-active {
+  background-color: #1d4ffe;
+}
+
+.site-header__menu-toggle.is-active .site-header__menu-icon--default {
+  display: none;
+}
+
+.site-header__menu-toggle.is-active .site-header__menu-icon--active {
+  display: inline;
+}
+
 /* Mobile search container */
 .site-header__search--compact {
   display: flex;
@@ -86,10 +102,10 @@
   width: 100%;
 }
 
-/* Mobile menu (prepare for toggle) */
+/* Mobile menu */
 .site-header__mobile-menu {
   padding-bottom: 2rem;
-  display: block;
+  display: none;
 }
 
 .site-header__mobile-menu.is-open {

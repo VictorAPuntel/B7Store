@@ -57,9 +57,23 @@
           <a href="checkout.html" class="btn-icon">
             <img src="assets/img/ui/shopping-bag-4-line.png" alt="" />
           </a>
-          <a class="btn-icon site-header__menu-toggle">
-            <img src="assets/img/ui/menu-line.png" alt="" />
-          </a>
+          <button
+            class="btn-icon site-header__menu-toggle"
+            type="button"
+            aria-expanded="false"
+            aria-label="Open Menu"
+          >
+            <img
+              class="site-header__menu-icon site-header__menu-icon--default"
+              src="assets/img/ui/menu-line.png"
+              alt="Menu Burguer"
+            />
+            <img
+              class="site-header__menu-icon site-header__menu-icon--active"
+              src="assets/img/ui/menu-line-white.png"
+              alt="Menu Burguer Active"
+            />
+          </button>
         </div>
       </div>
       <div class="site-header__mobile-menu">
@@ -88,6 +102,6 @@
         />
       </div>
     </header>
-    <script src="assets/js/script.js"></script>
+    <script type="module" src="assets/js/main.js"></script>
   </body>
 </html>
