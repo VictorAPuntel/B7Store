@@ -1,8 +1,9 @@
 .announcement-bar {
   background-color: #000000;
-  padding: 16px 0;
+  padding: 1rem 0;
   color: #ffffff;
   text-align: center;
+  font-size: 1rem;
 }
 
 .announcement-bar span {
@@ -18,10 +19,10 @@
 }
 
 .site-header__wrapper {
-  padding: 33px 24px;
+  padding: 2.0625rem 1.5rem;
   display: flex;
   justify-content: space-between;
-  max-width: 1024px;
+  max-width: 64rem;
   margin: auto;
 }
 
@@ -31,12 +32,12 @@
 }
 
 .site-header__logo {
-  margin-right: 40px;
+  margin-right: 2.5rem;
 }
 
 .site-header__menu {
   display: none;
-  gap: 40px;
+  gap: 2.5rem;
 }
 
 .site-header__menu-item a {
