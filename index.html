@@ -46,7 +46,7 @@
         <div class="site-header__actions">
           <div class="site-header__search">
             <input
-              class="site-header__search-input"
+              class="input input--sm site-header__search-input"
               type="text"
               placeholder="What are you looking for?"
             />
@@ -96,12 +96,28 @@
       </div>
       <div class="site-header__search--compact">
         <input
-          class="site-header__search-input"
+          class="input input--sm site-header__search-input"
           type="text"
           placeholder="What are you looking for?"
         />
       </div>
     </header>
+    <main></main>
+    <section class="newsletter">
+      <div class="newsletter-area">
+        <div class="newsletter-area__info">
+          <img src="assets/img/ui/mail-send-line.png" alt="Icon Mail Send" />
+          <div>
+            <h3>Stay up to date with promotions!</h3>
+            <p>Enter your email and be the first to know</p>
+          </div>
+        </div>
+        <div class="newsletter-area__action">
+          <input type="email" class="input" placeholder="What is your email?" />
+          <button type="button" class="action-button">Send</button>
+        </div>
+      </div>
+    </section>
     <script type="module" src="assets/js/main.js"></script>
   </body>
 </html>

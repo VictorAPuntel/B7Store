@@ -15,6 +15,12 @@ body {
   background-color: #f9f9f9;
 }
 
+main {
+  max-width: 64rem;
+  margin: auto;
+  padding: 2rem 0;
+}
+
 .btn-icon {
   height: 3rem;
   width: 3rem;
@@ -34,4 +40,31 @@ body {
 
 .btn-icon:hover {
   background-color: rgba(0, 0, 0, 0.05);
+}
+
+.input {
+  border: 1px solid #d9d9d9;
+  border-radius: 4px;
+  font-size: 1rem;
+  color: #7f7f7f;
+  outline: none;
+  padding: 1.3125rem 1.5rem;
+  width: 100%;
+  background-color: #ffffff;
+}
+
+.input--sm {
+  padding: 0.75rem 1rem;
+  height: 3rem;
+}
+
+.action-button {
+  background-color: #1d4ffe;
+  color: #ffffff;
+  font-size: 1.125rem;
+  border: 0;
+  border-radius: 4px;
+  padding: 1.25rem 2rem;
+  cursor: pointer;
+  white-space: nowrap;
 }
