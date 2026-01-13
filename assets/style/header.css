@@ -19,7 +19,7 @@
 }
 
 .site-header__wrapper {
-  padding: 2.0625rem 1.5rem; /* 33px 24px */
+  padding: 2.0625rem 1.5rem;
   display: flex;
   justify-content: space-between;
   max-width: 64rem;
