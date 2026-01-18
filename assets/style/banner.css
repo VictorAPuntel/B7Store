@@ -1,6 +1,6 @@
-/* //site-banner */
 .site-banner {
   margin: 0 1.5rem;
+  position: relative;
 }
 
 .site-banner__area {
@@ -12,13 +12,14 @@
 .site-banner__area-link {
   position: absolute;
   display: block;
-  left: 0;
-  right: 0;
-  top: 0;
+  inset: 0;
 }
 
 .site-banner__area-img {
   width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
 }
 
 .active-link {
@@ -26,17 +27,20 @@
 }
 
 .site-banner__area-counter {
+  position: absolute;
+  bottom: 24px;
+  left: 0;
+  z-index: 20;
+  width: min(17.125rem, 45%);
   display: flex;
   justify-content: center;
+  pointer-events: none;
 }
 
 .area-counter {
   display: inline-flex;
   gap: 0.625rem;
-  margin-top: 0.9375rem;
-  padding: 0.625rem;
   border-radius: 1.5625rem;
-  background-color: rgba(0, 0, 0, 0.3);
 }
 
 .area-counter__item {
@@ -60,4 +64,19 @@
 
 .active-item {
   opacity: 1;
+}
+
+@media (max-width: 1024px) {
+  .site-banner__area-counter {
+    width: 100%;
+    justify-content: center;
+    bottom: 1rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .site-banner__area-counter {
+    width: 100%;
+    justify-content: center;
+  }
 }
