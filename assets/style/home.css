@@ -1,8 +1,5 @@
-@import url(global.css);
-@import url(header.css);
+@import url(base.css);
 @import url(newsletter.css);
-@import url(footer.css);
 @import url(banner.css);
 @import url(warnings.css);
 @import url(product-section.css);
-@import url(product-card.css);
