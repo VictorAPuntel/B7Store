@@ -104,10 +104,28 @@
     </header>
     <main>
       <section class="site-breadcrumb">Home > T-shirts</section>
-      <section class="site-info">
-        <div class="site-products__qt"><span>12 products</span></div>
-        <div class="site-products__action">...</div>
-        <div class="site-products__order-area"></div>
+      <section class="product-info">
+        <div class="product-info__qt">
+          <span class="product-info__qt-number">12 </span>Products
+        </div>
+        <div class="product-info__actions">
+          <button class="btn-icon product-info__actions-btn">
+            Sort
+            <img src="assets/img/ui/arrow-up-down-line.png" alt="" />
+          </button>
+          <button class="btn-icon product-info__actions-btn">
+            Filter
+            <img src="assets/img/ui/equalizer-2-line.png" alt="" />
+          </button>
+        </div>
+        <div class="product-info__sort-area">
+          <label for="sort" class="sort-area__title">Sort by</label>
+          <select id="sort" name="sort" class="sort-area__options btn-icon">
+            <option value="price">Price</option>
+            <option value="bestselling">Best Selling</option>
+            <option value="alpha">Alphabetical Order</option>
+          </select>
+        </div>
       </section>
     </main>
     <footer class="site-footer">
