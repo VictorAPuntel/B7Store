@@ -20,6 +20,7 @@
 }
 
 .filter-header {
+  border: none;
   border-bottom: 1px solid #d9d9d9;
   padding-bottom: 1rem;
   display: flex;
@@ -27,6 +28,8 @@
   justify-content: space-between;
   cursor: pointer;
   margin-bottom: 2rem;
+  background-color: #ffffff;
+  width: 100%;
 }
 
 .filter-title {

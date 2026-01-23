@@ -103,22 +103,37 @@
       </div>
     </header>
     <main>
-      <section class="site-breadcrumb">Home > T-shirts</section>
+      <nav class="site-breadcrumb" aria-label="Breadcrumb">
+        <ol class="site-breadcrumb__list">
+          <li class="site-breadcrumb__item"><a href="index.html">Home</a></li>
+          <li class="site-breadcrumb__item" aria-current="page">T-shirts</li>
+        </ol>
+      </nav>
       <section class="product-info">
         <div class="product-info__qt">
           <span class="product-info__qt-number">12 </span>Products
         </div>
         <div class="product-info__actions">
-          <button class="btn-icon product-info__actions-btn" data-name="sort">
+          <button
+            class="btn-icon product-info__actions-btn"
+            data-name="sort"
+            aria-controls="sort-area"
+            aria-expanded="false"
+          >
             Sort
             <img src="assets/img/ui/arrow-up-down-line.png" alt="" />
           </button>
-          <button class="btn-icon product-info__actions-btn" data-name="filter">
+          <button
+            class="btn-icon product-info__actions-btn"
+            data-name="filter"
+            aria-controls="filters-area"
+            aria-expanded="false"
+          >
             Filter
             <img src="assets/img/ui/equalizer-2-line.png" alt="" />
           </button>
         </div>
-        <div class="product-info__sort-area">
+        <div class="product-info__sort-area" id="sort-area">
           <label for="sort" class="sort-area__title">Sort by</label>
           <select id="sort" name="sort" class="sort-area__options btn-icon">
             <option value="price">Price</option>
@@ -128,16 +143,21 @@
         </div>
       </section>
       <section class="product-layout">
-        <aside class="product-layout__filters">
+        <aside class="product-layout__filters" id="filters-area">
           <div class="filter">
-            <div class="filter-header">
-              <div class="filter-title">Technology</div>
+            <button
+              class="filter-header"
+              type="button"
+              aria-expanded="true"
+              aria-controls="filter-tech"
+            >
+              <span class="filter-title">Technology</span>
               <img
                 src="assets/img/ui/arrow-down-s-line.png"
                 alt=""
                 class="filter-icon"
               />
-            </div>
+            </button>
             <div class="filter-body">
               <label for="" class="filter-body__option">
                 <input type="checkbox" name="tecnologia" value="rn" />
@@ -158,14 +178,19 @@
             </div>
           </div>
           <div class="filter">
-            <div class="filter-header">
-              <div class="filter-title">Colors</div>
+            <button
+              class="filter-header"
+              type="button"
+              aria-expanded="true"
+              aria-controls="filter-tech"
+            >
+              <span class="filter-title">Colors</span>
               <img
                 src="assets/img/ui/arrow-down-s-line.png"
                 alt=""
                 class="filter-icon"
               />
-            </div>
+            </button>
             <div class="filter-body">
               <label for="" class="filter-body__option">
                 <input type="checkbox" name="tecnologia" value="rn" />
@@ -186,14 +211,19 @@
             </div>
           </div>
           <div class="filter">
-            <div class="filter-header">
-              <div class="filter-title">Prices</div>
+            <button
+              class="filter-header"
+              type="button"
+              aria-expanded="true"
+              aria-controls="filter-tech"
+            >
+              <span class="filter-title">Prices</span>
               <img
                 src="assets/img/ui/arrow-down-s-line.png"
                 alt=""
                 class="filter-icon"
               />
-            </div>
+            </button>
             <div class="filter-body">
               <label for="" class="filter-body__option">
                 <input type="checkbox" name="tecnologia" value="rn" />
