@@ -1,0 +1,424 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="assets/style/checkout.css" />
+    <title>B7Store</title>
+  </head>
+  <body>
+    <section class="announcement-bar">
+      <div class="announcement-bar__message announcement-bar__message--compact">
+        <span>FREE SHIPPING</span> to the entire Northeast!
+      </div>
+      <div class="announcement-bar__message announcement-bar__message--full">
+        <span>FREE SHIPPING</span> to the entire Northeast on purchases over
+        R$199.00. <span>ENJOY!</span>
+      </div>
+    </section>
+    <header class="site-header">
+      <div class="site-header__wrapper">
+        <div class="site-header__nav-area">
+          <a href="#">
+            <img
+              class="site-header__logo"
+              src="assets/img/ui/logo-black.png"
+              alt="B7Store"
+            />
+          </a>
+          <nav class="site-header__nav">
+            <ul class="site-header__menu">
+              <li class="site-header__menu-item">
+                <a href="products.html">T-shirts</a>
+              </li>
+              <li class="site-header__menu-item">
+                <a href="products.html">B7Web Kit</a>
+              </li>
+              <li class="site-header__menu-item">
+                <a href="products.html">Accessories</a>
+              </li>
+              <li class="site-header__menu-item">
+                <a href="products.html">Electronics</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+        <div class="site-header__actions">
+          <div class="site-header__search">
+            <input
+              class="input input--sm site-header__search-input"
+              type="text"
+              placeholder="What are you looking for?"
+            />
+          </div>
+          <a href="login.html" class="btn-icon">
+            <img src="assets/img/ui/user-line.png" alt="" />
+          </a>
+          <a href="checkout.html" class="btn-icon">
+            <img src="assets/img/ui/shopping-bag-4-line.png" alt="" />
+          </a>
+          <button
+            class="btn-icon site-header__menu-toggle"
+            type="button"
+            aria-expanded="false"
+            aria-label="Open Menu"
+          >
+            <img
+              class="site-header__menu-icon site-header__menu-icon--default"
+              src="assets/img/ui/menu-line.png"
+              alt="Menu Burguer"
+            />
+            <img
+              class="site-header__menu-icon site-header__menu-icon--active"
+              src="assets/img/ui/menu-line-white.png"
+              alt="Menu Burguer Active"
+            />
+          </button>
+        </div>
+      </div>
+      <div class="site-header__mobile-menu">
+        <nav class="site-header__mobile-nav">
+          <ul class="site-header__mobile-list">
+            <li class="site-header__menu-item site-header__menu-item--mobile">
+              <a href="products.html">T-shirts</a>
+            </li>
+            <li class="site-header__menu-item site-header__menu-item--mobile">
+              <a href="products.html">B7Web Kit</a>
+            </li>
+            <li class="site-header__menu-item site-header__menu-item--mobile">
+              <a href="products.html">Accessories</a>
+            </li>
+            <li class="site-header__menu-item site-header__menu-item--mobile">
+              <a href="products.html">Electronics</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+      <div class="site-header__search--compact">
+        <input
+          class="input input--sm site-header__search-input"
+          type="text"
+          placeholder="What are you looking for?"
+        />
+      </div>
+    </header>
+    <main>
+      <section class="site-checkout__header">
+        <img
+          src="assets/img/ui/shopping-bag-4-line.png"
+          alt="Shopping bag"
+          class="site-checkout__header-icon"
+        />
+        <div class="site-checkout__header-title">
+          Your shopping bag <span>(4 items)</span>
+        </div>
+      </section>
+      <section class="site-checkout__layout">
+        <div class="site-checkout__layout-products">
+          <div class="products-area--mobile">
+            <div class="product--mobile">
+              <div class="product-photo--mobile">
+                <img
+                  src="assets/img/products/bone-b7-branco.png"
+                  alt="Boné Branco"
+                  class="product-photo__img--mobile"
+                />
+              </div>
+              <div class="product-info--mobile">
+                <div class="product-info__details--mobile">
+                  <p class="product-info__details-name">B7Web Cap - Black</p>
+                  <p class="product-info__details-price">R$49,99</p>
+                </div>
+                <div class="product-info__actions--mobile">
+                  <div class="product-info__actions-qt">
+                    <div class="qty" role="group" aria-label="Quantity">
+                      <button
+                        type="button"
+                        class="qty__btn btn-icon"
+                        data-action="decrease"
+                        aria-label="decrease quantity"
+                      >
+                        -
+                      </button>
+                      <span
+                        class="qty__input"
+                        aria-label="Quantity"
+                        aria-live="polite"
+                      >
+                        01
+                      </span>
+                      <button
+                        type="button"
+                        class="qty__btn btn-icon"
+                        data-action="increase"
+                        aria-label="increase quantity"
+                      >
+                        +
+                      </button>
+                    </div>
+                  </div>
+                  <button class="btn-icon product-info__actions-btn">
+                    <img src="assets/img/ui/trash.png" alt="Trash Button" />
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="product--mobile">
+              <div class="product-photo--mobile">
+                <img
+                  src="assets/img/products/bone-b7-branco.png"
+                  alt="Boné Branco"
+                  class="product-photo__img--mobile"
+                />
+              </div>
+              <div class="product-info--mobile">
+                <div class="product-info__details--mobile">
+                  <p class="product-info__details-name">B7Web Cap - Black</p>
+                  <p class="product-info__details-price">R$49,99</p>
+                </div>
+                <div class="product-info__actions--mobile">
+                  <div class="product-info__actions-qt">
+                    <div class="qty" role="group" aria-label="Quantity">
+                      <button
+                        type="button"
+                        class="qty__btn btn-icon"
+                        data-action="decrease"
+                        aria-label="decrease quantity"
+                      >
+                        -
+                      </button>
+                      <span
+                        class="qty__input"
+                        aria-label="Quantity"
+                        aria-live="polite"
+                      >
+                        01
+                      </span>
+                      <button
+                        type="button"
+                        class="qty__btn btn-icon"
+                        data-action="increase"
+                        aria-label="increase quantity"
+                      >
+                        +
+                      </button>
+                    </div>
+                  </div>
+                  <button class="btn-icon product-info__actions-btn">
+                    <img src="assets/img/ui/trash.png" alt="Trash Button" />
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="product--mobile">
+              <div class="product-photo--mobile">
+                <img
+                  src="assets/img/products/bone-b7-branco.png"
+                  alt="Boné Branco"
+                  class="product-photo__img--mobile"
+                />
+              </div>
+              <div class="product-info--mobile">
+                <div class="product-info__details--mobile">
+                  <p class="product-info__details-name">B7Web Cap - Black</p>
+                  <p class="product-info__details-price">R$49,99</p>
+                </div>
+                <div class="product-info__actions--mobile">
+                  <div class="product-info__actions-qt">
+                    <div class="qty" role="group" aria-label="Quantity">
+                      <button
+                        type="button"
+                        class="qty__btn btn-icon"
+                        data-action="decrease"
+                        aria-label="decrease quantity"
+                      >
+                        -
+                      </button>
+                      <span
+                        class="qty__input"
+                        aria-label="Quantity"
+                        aria-live="polite"
+                      >
+                        01
+                      </span>
+                      <button
+                        type="button"
+                        class="qty__btn btn-icon"
+                        data-action="increase"
+                        aria-label="increase quantity"
+                      >
+                        +
+                      </button>
+                    </div>
+                  </div>
+                  <button class="btn-icon product-info__actions-btn">
+                    <img src="assets/img/ui/trash.png" alt="Trash Button" />
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="site-checkout__layout-info">
+          <div class="shipping-area">
+            <div class="shipping-area__title">
+              Calculate shipping and deadline
+            </div>
+            <div class="shipping-area__action">
+              <input
+                type="text"
+                placeholder="Enter the zip code"
+                class="input shipping-area__action-input"
+              />
+              <button class="action-button">Calculate</button>
+            </div>
+          </div>
+          <div class="shipping-area__result">
+            <h5 class="shipping-area__result-address">
+              Rua das Flores - Jardins da Serra - Campos
+            </h5>
+            <div class="shipping-area__price">
+              <div class="shipping-area__price-text">
+                Receive within 7 business days
+              </div>
+              <div class="shipping-area__price-value">R$73,23</div>
+            </div>
+          </div>
+          <div class="shipping-area__subtotal">
+            <div class="subtotal-area">
+              <div class="subtotal-area__text">Subtotal</div>
+              <div class="subtotal-area__prices">R$158,99</div>
+            </div>
+            <div class="subtotal-area divider">
+              <div class="subtotal-area__text">Freight</div>
+              <div class="subtotal-area__prices">--</div>
+            </div>
+            <div class="subtotal-area">
+              <div class="subtotal-area__text">Total</div>
+              <div class="subtotal-area__prices">
+                <span class="subtotal-area__prices-total">R$158,99</span>
+              </div>
+            </div>
+            <span class="subtotal-area__prices-payment"
+              >Payment method via PIX</span
+            >
+            <button
+              class="action-button subtotal-area__prices-btn"
+              type="button"
+            >
+              Continue
+            </button>
+            <a href="products.html" class="subtotal-area__prices-link"
+              >Buy other products</a
+            >
+          </div>
+        </div>
+      </section>
+    </main>
+    <section class="newsletter">
+      <div class="newsletter-area">
+        <div class="newsletter-area__info">
+          <img src="assets/img/ui/mail-send-line.png" alt="Icon Mail Send" />
+          <div>
+            <h3>Stay up to date with promotions!</h3>
+            <p>Enter your email and be the first to know</p>
+          </div>
+        </div>
+        <div class="newsletter-area__action">
+          <input type="email" class="input" placeholder="What is your email?" />
+          <button type="button" class="action-button">Send</button>
+        </div>
+      </div>
+    </section>
+    <footer class="site-footer">
+      <div class="site-footer__container">
+        <div class="site-footer__actions">
+          <div class="site-footer__nav-area">
+            <a href="" class="site-footer__logo">
+              <img src="assets/img/ui/logo-white.png" alt="B7Store" />
+            </a>
+            <nav class="site-footer__nav">
+              <ul class="site-footer__menu">
+                <li class="site-footer__menu-item">
+                  <a href="products.html">T-shirts</a>
+                </li>
+                <li class="site-footer__menu-item">
+                  <a href="products.html">B7web Kits</a>
+                </li>
+                <li class="site-footer__menu-item">
+                  <a href="products.html">Accessories</a>
+                </li>
+                <li class="site-footer__menu-item">
+                  <a href="products.html">Electronics</a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+        <div class="site-footer__contacts">
+          <div class="site-footer__contact-info">
+            <div class="site-footer__section-title">Need help?</div>
+            <div class="site-footer__contact-items">
+              <a
+                href="mailto:b7store@email.com"
+                class="site-footer__contact-link"
+              >
+                <span class="site-footer__contact-icon-box">
+                  <img
+                    src="assets/img/ui/mail-line.png"
+                    alt=""
+                    class="site-footer__contact-icon"
+                  />
+                </span>
+                <span class="site-footer__contact-text">
+                  b7store@email.com
+                </span>
+              </a>
+              <a
+                href="tel:+5511999999999"
+                class="site-footer__contact-link btn-icon"
+              >
+                <span class="site-footer__contact-icon-box">
+                  <img
+                    src="assets/img/ui/phone-line.png"
+                    alt=""
+                    class="site-footer__contact-icon"
+                /></span>
+                <span class="site-footer__contact-text">
+                  ( 11 ) 99999-9999
+                </span>
+              </a>
+            </div>
+          </div>
+          <div class="site-footer__socials">
+            <div class="site-footer__section-title">Follow on social media</div>
+            <div class="site-footer__social-items">
+              <a href="" class="site-footer__social-link btn-icon">
+                <img src="assets/img/ui/instagram-line.png" alt="" />
+              </a>
+              <a href="" class="site-footer__social-link btn-icon">
+                <img src="assets/img/ui/linkedin-line.png" alt="" />
+              </a>
+              <a href="" class="site-footer__social-link btn-icon">
+                <img src="assets/img/ui/facebook-line.png" alt="" />
+              </a>
+              <a href="" class="site-footer__social-link btn-icon">
+                <img src="assets/img/ui/twitter-x-fill.png" alt="" />
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="site-footer__bottom">
+          <div class="site-footer__bottom-phrase">
+            If you read this here, know that you are on the right path!<br />Keep
+            studying and you will get there...
+          </div>
+          <button class="btn-icon site-footer__bottom-btn">
+            <img src="assets/img/ui/arrow-up-line.png" alt="" />
+          </button>
+        </div>
+      </div>
+    </footer>
+    <script type="module" src="assets/js/checkout.js"></script>
+  </body>
+</html>
