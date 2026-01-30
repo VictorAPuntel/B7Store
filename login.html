@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="assets/style/login.css" />
+    <title>B7Store</title>
+  </head>
+  <body>
+    <section class="announcement-bar">
+      <div class="announcement-bar__message announcement-bar__message--compact">
+        <span>FREE SHIPPING</span> to the entire Northeast!
+      </div>
+      <div class="announcement-bar__message announcement-bar__message--full">
+        <span>FREE SHIPPING</span> to the entire Northeast on purchases over
+        R$199.00. <span>ENJOY!</span>
+      </div>
+    </section>
+    <main>
+      <section class="login-page">
+        <div class="login-page__photo">
+          <img
+            src="assets/img/ui/logo-black.png"
+            alt="B7Web Store Logo"
+            class="login-page__photo-img"
+          />
+        </div>
+        <div class="login-page__details">
+          <p class="login-page__details-title">Log in</p>
+          <p class="login-page__details-info">Enter your details and log in.</p>
+        </div>
+        <div class="login-page__form">
+          <form action="index.html">
+            <label for="email" class="login-page__form-label">E-mail</label>
+            <input
+              type="email"
+              class="input login-page__form-input"
+              placeholder="Enter your email"
+              id="email"
+            />
+            <div class="login-page__form-password">
+              <label for="password" class="login-page__form-label"
+                >Password</label
+              >
+              <a href="#" class="forgot-password">Forgot your password?</a>
+            </div>
+            <input
+              type="password"
+              class="input login-page__form-input"
+              placeholder="Enter your password."
+              id="password"
+              data-password="login-password"
+            />
+          </form>
+        </div>
+        <div class="login-page__actions">
+          <button type="button" class="action-button login-page__actions-btn">
+            Enter
+          </button>
+          <p class="login-page__actions-text">
+            Don't have an account?
+            <span
+              ><a href="#" class="login-page__actions-link"
+                >Register here.</a
+              ></span
+            >
+          </p>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
